@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigtion-menu */
+
+nav{
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    height: 11vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+.logo img{
+    height: 35px;
+    width: 90px;
+}
+.divider{
+    width: 1px;
+    height: 35px;
+    background-color: white;
+    margin-top: 10px;
+}
+.nav-list ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.nav-list ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Tilt Neon', cursive;
+}
+.nav-list ul li a:hover{
+    color: #ba0cc5;
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+   
+}
+.nav-button{
+    display: flex;
+    margin-left: 30%;
+    height: fit-content;
+} 
+.nav-button button{
+    padding: 10px 40px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #ba0cc5;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Arvo', serif;
+}
+.nav-button button:hover{
+    box-shadow: 0 0 10px 0 #fbfcfc inset, 0 0 20px 2px #fbfcfc;
+}
+
+/* Main-menu */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/bg.png");
+    background-position: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.main-heading{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 20px;
+    font-family: 'Tilt Neon', cursive;
+}
+.main-para{
+     color: white;
+     font-size: 23px;
+     font-weight: 600;
+     margin-left: 50px;
+     margin-bottom: 40px;
+      font-family: 'Tilt Neon', cursive;
+}
+.main button{
+    background-color: #ba0cc5;
+    padding: 15px 25px;
+    border-radius: 9px;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 130px;
+    cursor: pointer;
+    font-family: 'Arvo', serif;
+}
+.main button:hover{
+    box-shadow: 0 0 10px 0 #00d7c3, 0 0 20px 2px #00d7c3;
+}

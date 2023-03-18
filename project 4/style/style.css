@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 90px;
+    
+  }
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+     font-family: 'Tilt Neon', cursive;
+    margin-left: 0;
+}
+.logo img{
+    height: 50px;
+
+}
+nav button{
+    padding: 16px 25px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: #5c2faf;
+    color: white;
+    font-weight: 400;
+    font-family: 'Tilt Neon', cursive;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.main-img img{
+    height: auto;
+    width: 650px;
+}
+.main-Heading{
+    font-size: 60px;
+     font-family: 'Tilt Neon', cursive;
+    color: rgb(33, 8, 56);
+    line-height: 60px;
+}
+.main-Heading span{
+    color: #9978e2;
+}
+.left-main{
+    margin-top: 10%;
+}
+.explain{
+    margin-top: 50px;
+    color: 828282;
+     font-family: 'Tilt Neon', cursive;
+    font-weight: 500;
+}
+.main-button{
+    padding: 15px 40px;
+    background-color: #5c2faf;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+     font-family: 'Tilt Neon', cursive;
+    border: none;
+    border-radius: 12px;
+    margin-top: 50px;
+}
