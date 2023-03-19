@@ -334,6 +334,7 @@ footer ul li a{
     padding: 10px 35px;
     border: none;
     border-radius: 12px;
+    cursor: pointer;
    
 } 
 .footer-search-box ul{
