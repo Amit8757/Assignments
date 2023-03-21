@@ -8,6 +8,7 @@ body{
     background-image: url("../assets/pexels-maxyne-barcel-10402282\ 1.png");
     background-position: cover;
     background-attachment: scroll;
+    background-repeat: no-repeat;
 }
 nav{
     padding: 35px 0px;
