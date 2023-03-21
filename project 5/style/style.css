@@ -45,8 +45,6 @@ nav{
 .nav-list ul li a:hover{
     color: #ba0cc5;
     transition: 0.5s ease-in-out;
-    font-size: 20px;
-   
 }
 .nav-button{
     display: flex;
