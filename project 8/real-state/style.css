@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #d8d9da;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("Photos/mainBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+    margin-top: -20px;
+}
+
+nav img{
+    height: 130px;
+    width: 130px;
+}
+nav ul{
+    display: flex;
+    gap: 70px;
+    font-size: larger;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* Divider */
+.divider{
+    background-color: white;
+    height: 1px;
+    width: 80vw;
+}
+hr{
+    margin: 0 100px;
+    margin-top: -50px;
+}
+header div{
+    color: #ffffff;
+    margin-left: 140px;
+    margin-top: 85px;
+}
+header h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+header p{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+header button{
+    background-color: rgb(94, 94, 248);
+    border: none;
+    border-radius: 12px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.logo-sec{
+    background-color: #fff;
+    margin: 0 35px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+}
+
+/* Cards-section */
+.card-section h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.card-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 100px; */
+}
+.cards{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cards img{
+    height: 400px;
+    width: 350px;
+    border-radius: 12px;
+    margin-top: 100px;
+}
+.card-details{
+  width: 300px;
+  height: 130px;
+  border-radius: 12px;
+  background: #ffffff;
+  position: absolute;
+  bottom: -60px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-details div h3{
+    font-size: 25px;
+}
+.card-details div p{
+    color: #6161fa;
+    margin-top: 12px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.cards button{
+  position: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  width: 114px;
+  height: 52px;
+  top: 15px;
+  left: 60px;
+  background-color: rgb(78, 78, 236);
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+/* Features-section */
+
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+.feature div{
+    width: 50%;
+}
+.first-feature div:first-child img:first-child {
+    position: absolute;
+    left: -80px;
+    z-index: -1;
+    width: 726px;
+    height: 456px;
+ }
+
+ .first-feature div:first-child  img:last-child {
+    position: relative;
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    bottom: 55px;
+    left: 110px;
+   
+  }
+.Right-features-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.Right-features-box h1{
+    font-size: 70px;
+}
+.Right-features-box p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Right-features-box button{
+    padding: 10px 30px;
+    background-color: rgb(94, 94, 240);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+/* second features */
+.second-Right-features-box{
+    margin-top: -500px;
+    margin-left: 50px;
+}
+.second-feature div:last-child{
+    margin-top: -50px;
+}
+.second-Right-features-box h1{
+     font-size: 70px;
+}
+.second-Right-features-box p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.second-Right-features-box button{
+    padding: 10px 30px;
+    background-color: rgb(94, 94, 240);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.second-feature div:last-child img:first-child{ 
+    position: relative;
+    height: 460px;
+    width: 670px;
+
+}
+.second-feature div:last-child img:last-child{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    bottom: 530px;
+    border: none;
+    border-radius: 20px;
+    left: 175px;
+
+}
+/* News-Letter */
+.newsletter{
+    height: 70vh;
+    margin: 120px 50px;
+    padding: 90px 0;
+    border: none;
+    border-radius: 22px;
+    background-color: rgb(94, 94, 240);
+    border: none;
+    margin-top: -380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.newsletter form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} 
+.newsletter h1{
+    font-size: 70px;
+    text-align: center;
+}
+.newsletter p{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.newsletter form div{
+    display: flex;
+    margin-top: 25px;
+}
+.newsletter form div img{
+    position: absolute;
+    margin: 15px;
+   
+}
+.newsletter form div input{
+    padding: 22px 140px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(69, 69, 202);
+    color: white;
+    font-size: 20px;
+
+}
+.newsletter form button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    color:  rgb(94, 94, 240);
+    font-weight: 700;
+    font-size: 18px;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.left-footer ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.left-footer p{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Right footer */
+.right-footer{
+    display: flex;
+    gap: 90px;
+    
+}
+.right-footer div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+.right-footer div ul li a{
+    color: black;
+}
+.right-footer div ul li:first-child{
+    font-size: 23px;
+    font-weight: 600;
+}
