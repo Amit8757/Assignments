@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scroll Progress Bar</title>
+  <style>
+    body, html {
+    height: 1000vh;
+    margin: 0;
+    padding: 0;
+    }
+
+    #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    z-index: 9999;
+    }
+
+    #progressBarFill {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0;
+    transition: width 0.3s ease-in-out;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div id="progressBar">
+    <div id="progressBarFill"></div>
+  </div>
+
+  <!-- Content of your web page -->
+
+  <script src="./Bar.js"></script>
+</body>
+</html>
